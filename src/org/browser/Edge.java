@@ -14,6 +14,7 @@ public class Edge {
 		//to get the title from the webpage
 		String title = driver.getTitle();
 		System.out.println(title);
+		System.out.println("title"); //branch1
 		//to get the url from the webpage
 		String currentUrl= driver.getCurrentUrl();
 		System.out.println(currentUrl);
